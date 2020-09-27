@@ -1,0 +1,13 @@
+{
+    "name": "abuenosvinos/elk-dashboard",
+    "license": "MIT",
+    "type": "project",
+    "description": "Populate an ELK and visualize information",
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    },
+    "require": {
+        "monolog/monolog": "^1.23",
+        "elasticsearch/elasticsearch": "^7.0"
+    }
+}
