@@ -53,6 +53,11 @@ http://localhost:5601/
 
 Import `etc/kibana/dashboard_app.ndjson` to `Management -> Saved Object -> Import`
 
+![Screenshot](doc/dashboard01.png)
+![Screenshot](doc/dashboard02.png)
+![Screenshot](doc/dashboard03.png)
+![Screenshot](doc/dashboard04.png)
+
 #### Shut down instances
 ```
 docker-compose down
@@ -62,6 +67,8 @@ docker-compose down
 
 * Create fields geo-point
   https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-point.html
+
+
 
 
 
